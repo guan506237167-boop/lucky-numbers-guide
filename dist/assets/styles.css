@@ -279,3 +279,45 @@
   .lucky-hero h1{font-size:34px}
   .lucky-hero .lead{font-size:16px}
 }
+
+
+/* LuckyNumbersGuide landing rebuild 20260721 */
+body.lucky-page{background:linear-gradient(180deg,#fff6e8,#fff 42%,#fbefe0);color:var(--ink)}
+body.lucky-page h1,body.lucky-page h2{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;letter-spacing:0}
+body.lucky-page h1{font-size:clamp(34px,4vw,58px);font-weight:680;line-height:1.08;max-width:900px}
+body.lucky-page h2{font-size:clamp(24px,2.4vw,34px);font-weight:620;line-height:1.22}
+.page-identity{position:relative;overflow:hidden;padding:64px 20px;background:linear-gradient(135deg,#5f181c,#8a2424 52%,#b87935);color:#fff8ea;border-bottom:1px solid rgba(255,217,140,.28)}
+.page-identity::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 86% 20%,rgba(255,217,140,.22),transparent 28%),linear-gradient(90deg,rgba(255,248,234,.07) 1px,transparent 1px),linear-gradient(0deg,rgba(255,248,234,.05) 1px,transparent 1px);background-size:auto,56px 56px,56px 56px}
+.page-identity::after{content:"8";position:absolute;right:clamp(20px,8vw,120px);top:12px;color:rgba(255,248,234,.10);font-family:Georgia,"Times New Roman",serif;font-size:clamp(96px,15vw,190px);font-weight:900;line-height:1}
+.page-identity-inner{position:relative;z-index:1}
+.page-identity h1{color:#fff8ea;margin:16px 0 14px;text-shadow:0 14px 36px rgba(0,0,0,.24)}
+.page-identity .lead{color:#f7dfbf;max-width:780px}
+.page-identity .eyebrow{color:#ffd98c}.page-identity .eyebrow::before{background:#ffd98c}
+.landing-grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:28px;align-items:start}
+.landing-aside{display:grid;gap:18px;position:sticky;top:92px}
+.info-card,.visual-card,.daily-number-box{background:#fffdf8;border:1px solid var(--line);border-radius:10px;padding:22px;box-shadow:0 14px 36px rgba(80,45,32,.08)}
+.info-card strong,.visual-card strong{display:block;color:var(--deep);font-size:18px;margin-bottom:12px}
+.info-card a{display:block;padding:10px 0;border-top:1px solid var(--line);color:var(--red);text-decoration:none;font-weight:580}
+.info-card a:first-of-type{border-top:0}
+.visual-card img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;margin-bottom:14px}
+.daily-number-box{background:linear-gradient(180deg,#8a2424,#321215);color:#fff8ea;border-color:rgba(255,217,140,.28)}
+.daily-number-box span{display:block;color:#ffd98c;text-transform:uppercase;font-size:12px;font-weight:800;letter-spacing:.06em}
+.daily-number-box strong{display:block;font-size:40px;line-height:1.1;margin:10px 0;font-family:Georgia,"Times New Roman",serif}
+.daily-number-box p{color:#f3dcc0}
+.number-table,.compare-table{overflow-x:auto;margin:22px 0;border:1px solid var(--line);border-radius:10px;background:#fff}
+.number-table table,.compare-table table{width:100%;border-collapse:collapse;min-width:640px}
+.number-table th,.number-table td,.compare-table th,.compare-table td{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.number-table th,.compare-table th{background:#f7e6d2;color:var(--deep);font-size:13px;text-transform:uppercase;letter-spacing:.04em}
+.number-table tr:last-child td,.compare-table tr:last-child td{border-bottom:0}
+.guide-hub-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.guide-tile{display:block;min-height:190px;padding:24px;border:1px solid rgba(138,36,36,.16);border-radius:10px;background:linear-gradient(180deg,#fffdf8,#f8e8d4);text-decoration:none;box-shadow:0 16px 38px rgba(80,45,32,.08)}
+.guide-tile span{display:inline-grid;place-items:center;width:42px;height:42px;margin-bottom:16px;border-radius:50%;background:#8a2424;color:#fff8ea;font-weight:800}
+.guide-tile strong{display:block;color:var(--deep);font-size:20px;margin-bottom:8px}
+.guide-tile p{color:var(--muted);margin:0}
+.tool-landing-section{padding-top:48px}
+.compact-paid{position:static}
+.nav-group::after{content:"";position:absolute;left:0;right:0;top:100%;height:14px}
+.nav-dropdown{top:calc(100% + 4px)}
+.links>a,.nav-group>a{font-weight:520}
+@media(max-width:980px){.landing-grid{grid-template-columns:1fr}.landing-aside{position:static}.guide-hub-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.page-identity{padding:48px 16px}.guide-hub-grid{grid-template-columns:1fr}.number-table table,.compare-table table{min-width:560px}}
