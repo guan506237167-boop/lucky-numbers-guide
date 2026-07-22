@@ -1,0 +1,7 @@
+﻿name = "lucky-numbers-guide"
+compatibility_date = "2026-07-22"
+workers_dev = false
+preview_urls = false
+
+[assets]
+directory = "./dist"

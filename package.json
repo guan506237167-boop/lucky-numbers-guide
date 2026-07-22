@@ -1,0 +1,10 @@
+﻿{
+  "name": "lucky-numbers-guide",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/apply-template-rescue.mjs",
+    "deploy": "wrangler deploy"
+  }
+}
