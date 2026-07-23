@@ -1,25 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
   <title id="title">Address practical balance visual</title>
-  <desc id="desc">A house address decision visual balancing number meaning with practical housing checks.</desc>
-  <rect width="1200" height="900" rx="44" fill="#fff7e8"/>
-  <circle cx="240" cy="220" r="92" fill="#d9b66f" opacity=".75"/>
-  <circle cx="960" cy="690" r="130" fill="#8a2424" opacity=".18"/>
-  <g transform="translate(250 170)">
-    <path d="M350 90 V500" stroke="#24382f" stroke-width="18" stroke-linecap="round"/>
-    <path d="M170 210 H530" stroke="#24382f" stroke-width="18" stroke-linecap="round"/>
-    <path d="M170 210 L90 410 H250 Z" fill="#8a2424"/>
-    <path d="M530 210 L450 410 H610 Z" fill="#7e9187"/>
-    <rect x="278" y="500" width="144" height="42" rx="21" fill="#24382f"/>
-    <text x="170" y="490" text-anchor="middle" font-family="Georgia, serif" font-size="82" fill="#8a2424" font-weight="700">8</text>
-    <g transform="translate(455 455)">
-      <rect width="150" height="102" rx="16" fill="#fffaf1" stroke="#d9b66f" stroke-width="5"/>
-      <path d="M20 52 L75 14 L130 52 V92 H20 Z" fill="#d9b66f"/>
-      <rect x="63" y="62" width="24" height="30" rx="4" fill="#8a2424"/>
-    </g>
-  </g>
-  <g fill="#24382f" opacity=".16">
-    <rect x="112" y="640" width="180" height="22" rx="11"/>
-    <rect x="112" y="690" width="260" height="22" rx="11"/>
-    <rect x="112" y="740" width="220" height="22" rx="11"/>
-  </g>
+  <desc id="desc">A filled visual balancing symbolic number meaning with practical home checks.</desc>
+  <rect width="1200" height="900" rx="44" fill="#fff3df"/>
+  <rect x="118" y="130" width="964" height="610" rx="44" fill="#24382f"/>
+  <circle cx="940" cy="238" r="126" fill="#d9b66f" opacity=".35"/>
+  <rect x="205" y="230" width="330" height="350" rx="36" fill="#fffaf1"/>
+  <text x="370" y="415" text-anchor="middle" font-family="Georgia, serif" font-size="130" fill="#8a2424" font-weight="700">8</text>
+  <rect x="260" y="475" width="220" height="22" rx="11" fill="#d7c4a9"/>
+  <rect x="650" y="230" width="330" height="350" rx="36" fill="#fffaf1"/>
+  <path d="M715 430 L770 485 L910 310" fill="none" stroke="#7e9187" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="230" y="630" width="740" height="34" rx="17" fill="#d9b66f"/>
+  <rect x="330" y="680" width="540" height="22" rx="11" fill="#fff8ea" opacity=".7"/>
 </svg>

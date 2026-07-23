@@ -36,13 +36,25 @@
     .address-faq{margin-top:14px}
     .address-faq .faq-item{background:#fff7e8;border-color:rgba(92,62,32,.14);box-shadow:none}
     .address-faq h3{font-size:20px;margin-bottom:8px;color:#24382f}
+    .content-panel{margin:24px 0;padding:22px;border-radius:18px;background:#fff7e8;border:1px solid rgba(92,62,32,.13)}
+    .content-panel h2{margin-top:0}
+    .split-panel{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.78fr);gap:18px;align-items:start;margin:26px 0}
+    .split-copy{background:#fffaf1;border:1px solid rgba(92,62,32,.12);border-radius:18px;padding:22px}
+    .split-copy h2{margin-top:0}
+    .check-stack{display:grid;gap:12px}
+    .check-card{background:#24382f;color:#fff7e8;border-radius:16px;padding:16px;box-shadow:0 12px 28px rgba(25,32,27,.11)}
+    .check-card strong{display:block;color:#f3ce83;margin-bottom:6px}
+    .number-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}
+    .number-card{border-radius:16px;padding:18px;background:#fff7e8;border:1px solid rgba(92,62,32,.13)}
+    .number-card strong{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:50%;margin-bottom:10px;background:#8a2424;color:#fff8ea;font-family:Georgia,serif;font-size:26px}
+    .number-card p{margin:0;font-size:15px;line-height:1.6}
     .side{display:grid;gap:16px}
     .side-card{background:#24382f;color:#fff7e8;border-radius:18px;padding:20px;box-shadow:0 16px 38px rgba(25,32,27,.15)}
     .side-card a{color:#f3ce83;display:block;margin:.55rem 0;text-decoration:none}
     .icon-panel{background:#fff7e8;border:1px solid rgba(92,62,32,.13);border-radius:18px;padding:18px}
     .icon-row{display:grid;grid-template-columns:42px 1fr;gap:12px;align-items:center;margin:12px 0}
     .icon-row span:first-child{height:42px;border-radius:50%;display:grid;place-items:center;background:#d9b66f;color:#24382f;font-weight:700}
-    @media(max-width:900px){.test-article-grid,.fact-grid,.image-row{grid-template-columns:1fr}.test-article{padding:20px}}
+    @media(max-width:900px){.test-article-grid,.fact-grid,.image-row,.split-panel,.number-cards{grid-template-columns:1fr}.test-article{padding:20px}}
   </style>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is a good lucky number for a house address?", "acceptedAnswer": {"@type": "Answer", "text": "A good lucky house number is easy to say, easy to remember, and culturally comfortable for the people who live there. In Chinese number culture, 6, 8, and 9 are often read positively, while 4 may feel sensitive because of sound association."}}, {"@type": "Question", "name": "Should I judge an address by one digit or the full number?", "acceptedAnswer": {"@type": "Answer", "text": "Use the full address first. A single digit can help with cultural meaning, but the complete sequence, street name, unit number, and practical location matter more."}}, {"@type": "Question", "name": "Is number 8 always the best address number?", "acceptedAnswer": {"@type": "Answer", "text": "No. Number 8 is popular because of its prosperity association in Chinese, but a clear, affordable, safe, and convenient address is more important than one symbolic digit."}}, {"@type": "Question", "name": "Can a house number change my luck?", "acceptedAnswer": {"@type": "Answer", "text": "This guide treats number meaning as cultural context and personal reflection. It does not promise wealth, safety, health, or relationship outcomes."}}, {"@type": "Question", "name": "What should I do if my address includes number 4?", "acceptedAnswer": {"@type": "Answer", "text": "Treat 4 as a comfort check, not an automatic rejection. Consider the full sequence, personal comfort, local culture, and practical value. Many people live comfortably with addresses that include 4."}}]}</script>
 </head>
@@ -90,13 +102,29 @@
         </figure>
       </div>
 
-      <h2>How to Read a Full House Address</h2>
-      <p>Start with the full address exactly as it is used on mail, contracts, maps, and daily conversations. A building number, unit number, floor number, street name, and city context can all shape how the address feels. If the address is 168, for example, the sequence may feel smoother and more memorable than reading 1, 6, and 8 separately. If the address is 404, the repeated 4 may matter emotionally to some people, but the actual home may still be practical and comfortable.</p>
-      <p>For a rental or purchase decision, write down the practical strengths first. A good location, clear contract, safe building, reasonable price, and comfortable layout are stronger than a symbolic number. After that, number meaning can serve as a personal preference or conversation point.</p>
+      <section class="split-panel">
+        <div class="split-copy">
+          <h2>How to Read a Full House Address</h2>
+          <p>Start with the address exactly as it appears on mail, contracts, maps, and daily conversations. Read the building number, unit number, floor number, street name, and city context together before deciding whether the number feels comfortable.</p>
+          <p>If the address is 168, the full sequence may feel smoother than reading 1, 6, and 8 separately. If the address is 404, the repeated 4 may matter emotionally to some people, but the home can still be practical and comfortable.</p>
+        </div>
+        <div class="check-stack" aria-label="Address reading checklist">
+          <div class="check-card"><strong>Sequence first</strong><span>Read the complete number before judging one digit.</span></div>
+          <div class="check-card"><strong>Practical fit</strong><span>Location, safety, layout, contract, and price carry more weight than symbolism.</span></div>
+          <div class="check-card"><strong>Personal comfort</strong><span>Use number meaning as a preference, not as a final decision rule.</span></div>
+        </div>
+      </section>
 
-      <h2>When 6, 8, and 9 Feel Positive</h2>
-      <p>In many Chinese number-meaning discussions, 6 is connected with smooth progress, 8 with prosperity, and 9 with long-lasting quality. These readings are not universal laws. They are cultural associations shaped by pronunciation, tradition, and repeated use in gifts, phone numbers, business names, addresses, and celebration choices.</p>
-      <p>If an address includes one of these numbers, ask whether the association actually helps the people who will live there. A buyer may like 8 because it feels confident. A family may like 9 because it feels stable. A renter may like 6 because it sounds easygoing. The best interpretation is specific, modest, and easy to explain.</p>
+      <section class="content-panel">
+        <h2>When 6, 8, and 9 Feel Positive</h2>
+        <p>These numbers are often read positively in Chinese number culture, but the best interpretation is still specific, modest, and easy to explain.</p>
+        <div class="number-cards">
+          <div class="number-card"><strong>6</strong><p>Often connected with smooth progress or things going well.</p></div>
+          <div class="number-card"><strong>8</strong><p>Often linked with prosperity because of sound association.</p></div>
+          <div class="number-card"><strong>9</strong><p>Often read as long-lasting, steady, or enduring.</p></div>
+        </div>
+        <p>If an address includes one of these numbers, ask whether the association actually helps the people who will live there. A buyer may like 8 because it feels confident; a family may like 9 because it feels stable; a renter may like 6 because it sounds easygoing.</p>
+      </section>
 
       <h2>How to Handle Number 4 Without Overreacting</h2>
       <p>Number 4 can feel unlucky in some Chinese contexts because its sound is associated with death. That does not mean every address containing 4 is bad. Context matters: a unit number, a street number, a floor label, and a local naming convention may all change how the number is perceived. Some people care strongly; others do not care at all.</p>
